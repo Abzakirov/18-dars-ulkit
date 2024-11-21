@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMMFLOW</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/css/output.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="nav__left__right flex justify-between">
+                    <div class="nav__left flex gap-4 items-center">
+                        <img src="/assets/svg/logo1.svg" alt="">
+                        <ul class="nav__ul flex gap-5">
+                            <li><a href="#" class="nav__a">Услуги</a></li>
+                            <li><a href="#" class="nav__a">Преимущества</a></li>
+                            <li><a href="#" class="nav__a">Отзывы</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav__right flex gap-4 items-center ">
+                        <a href="#"><button>Войти</button></a>
+                        <a href="#"><button class="w-[170px] h-[48px] bg-[#1D4ED8] text-white rounded-[6px]">Быстрый
+                                заказ</button></a>
+                    </div>
+                    <div class="menu ">
+                        <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+                        <label for="burger-checkbox" class="burger"></label>
+                        <ul class="menu-list">
+                            <li><a href="#" class="menu-item">Услуги</a>
+                            <li>
+                            <li><a href="#" class="menu-item">Преимущества</a>
+                            <li>
+                            <li><a href="#" class="menu-item">Отзывы</a>
+                            <li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="showcase">
+            <div class="container">
+                <div class="container m-auto p-4">
+                    <div class=" infosia flex gap-[30px]">
+                      <div class="bg-white p-4  rounded">
+                        <div class="flex  items-center inosia">
+                            <img src="/assets/svg/image1.svg" alt="">
+                            <h2 class="text-lg font-semibold mb-4">Instagram</h2>
+                        </div>
+                    
+                        <ul class="space-y-2 text-sm">
+                          <li>Подписчики</li>
+                          <li>Лайки</li>
+                          <li>Просмотры</li>
+                          <li>Комментарии</li>
+                          <li>Истории</li>
+                          <li>Зрители</li>
+                          <li>Статистика</li>
+                        </ul>
+                      </div>
+                  
+                      <div class="bg-white p-4  rounded">
+                        <div class="flex  items-center inosia">
+                            <img src="/assets/svg/image2.svg" alt="">
+                            <h2 class="text-lg font-semibold mb-4">Telegram</h2>
+                        </div>
+                        <ul class="space-y-2 text-sm">
+                          <li>Подписчики</li>
+                          <li>Просмотры</li>
+                          <li>Реакции</li>
+                          <li>Голосование</li>
+                          <li>Репосты</li>
+                          <li>Старт бота</li>
+                          <li>Telegram просмотры</li>
+                          <li>Комментарии</li>
+                        </ul>
+                      </div>
+                  
+                      <div class="bg-white p-4 ">
+                        <div class="flex  items-center inosia">
+                            <img src="/assets/svg/image3.svg" alt="">
+                            <h2 class="text-lg font-semibold mb-4">VK</h2>
+                        </div>
+                        <ul class="space-y-2 text-sm">
+                          <li>Подписчики</li>
+                          <li>Лайки</li>
+                          <li>Комментарии</li>
+                          <li>Репосты</li>
+                          <li>Просмотры на видео</li>
+                          <li>Просмотры на пост</li>
+                          <li>Накрутка опросов</li>
+                          <li>Прослушивания</li>
+                          <li>Релиз плейлиста</li>
+                        </ul>
+                      </div>
+                  
+                      <div class="bg-white p-4 ">
+                        <div class="flex  items-center inosia">
+                            <img src="/assets/svg/image4.svg" alt="">
+                            <h2 class="text-lg font-semibold mb-4">TikTok</h2>
+                        </div>
+                        <ul class="space-y-2 text-sm">
+                          <li>Подписчики</li>
+                          <li>Лайки</li>
+                          <li>Комментарии</li>
+                          <li>Репосты</li>
+                        </ul>
+                      </div>
+                  
+                      <div class="bg-white p-4 ">
+                        <div class="flex  items-center inosia">
+                            <img src="/assets/svg/image5.svg" alt="">
+                            <h2 class="text-lg font-semibold mb-4">YouTube</h2>
+                        </div>
+                        <ul class="space-y-2 text-sm">
+                          <li>Подписчики</li>
+                          <li>Просмотры</li>
+                          <li>Просмотры трансляций</li>
+                          <li>Просмотры Shorts</li>
+                          <li>Лайки</li>
+                          <li>Дизлайки</li>
+                          <li>Комментарии</li>
+                          <li>Репосты</li>
+                          <li>Часы просмотров</li>
+                        </ul>
+                      </div>
+                  
+                      <div class="bg-white p-4 ">
+                        <div class="flex  items-center inosia ">
+                            <img src="/assets/svg/image7.svg" alt="">
+                            <h2 class="text-lg font-semibold mb-4">Twitch</h2>
+                        </div>
+                        <ul class="space-y-2 text-sm">
+                          <li>Подписчики</li>
+                          <li>Просмотры</li>
+                          <li>Зрители</li>
+                        </ul>
+                      </div>
+                  
+                      <div class="bg-white p-4 ">
+                        <div class="flex  items-center justify-center mb-3 inosia">
+                            <img src="/assets/svg/image6.svg" alt="">
+                            <h2 class="text-lg font-semibold mb-4">FaceBook</h2>
+                        </div>
+                        <ul class="space-y-2 text-sm">
+                          <li>Подписчики</li>
+                          <li>Лайки</li>
+                          <li>Просмотры</li>
+                          <li>Комментарии</li>
+                          <li>Истории</li>
+                          <li>Зрители</li>
+                          <li>Статистика</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class=" infosia flex gap-[30px]">
+                        <div class="bg-white p-4  rounded">
+                          <div class="flex  items-center inosia">
+                              <img src="/assets/svg/image1.svg" alt="">
+                              <h2 class="text-lg font-semibold mb-4">Instagram</h2>
+                          </div>
+                      
+                          <ul class="space-y-2 text-sm">
+                            <li>Подписчики</li>
+                            <li>Лайки</li>
+                            <li>Просмотры</li>
+                            <li>Комментарии</li>
+                            <li>Истории</li>
+                            <li>Зрители</li>
+                            <li>Статистика</li>
+                          </ul>
+                        </div>
+                    
+                        <div class="bg-white p-4  rounded">
+                          <div class="flex  items-center inosia">
+                              <img src="/assets/svg/image2.svg" alt="">
+                              <h2 class="text-lg font-semibold mb-4">Telegram</h2>
+                          </div>
+                          <ul class="space-y-2 text-sm">
+                            <li>Подписчики</li>
+                            <li>Просмотры</li>
+                            <li>Реакции</li>
+                            <li>Голосование</li>
+                            <li>Репосты</li>
+                            <li>Старт бота</li>
+                            <li>Telegram просмотры</li>
+                            <li>Комментарии</li>
+                          </ul>
+                        </div>
+                    
+                        <div class="bg-white p-4 ">
+                          <div class="flex  items-center inosia">
+                              <img src="/assets/svg/image3.svg" alt="">
+                              <h2 class="text-lg font-semibold mb-4">VK</h2>
+                          </div>
+                          <ul class="space-y-2 text-sm">
+                            <li>Подписчики</li>
+                            <li>Лайки</li>
+                            <li>Комментарии</li>
+                            <li>Репосты</li>
+                            <li>Просмотры на видео</li>
+                            <li>Просмотры на пост</li>
+                            <li>Накрутка опросов</li>
+                            <li>Прослушивания</li>
+                            <li>Релиз плейлиста</li>
+                          </ul>
+                        </div>
+                    
+                        <div class="bg-white p-4 ">
+                          <div class="flex  items-center inosia">
+                              <img src="/assets/svg/image4.svg" alt="">
+                              <h2 class="text-lg font-semibold mb-4">TikTok</h2>
+                          </div>
+                          <ul class="space-y-2 text-sm">
+                            <li>Подписчики</li>
+                            <li>Лайки</li>
+                            <li>Комментарии</li>
+                            <li>Репосты</li>
+                          </ul>
+                        </div>
+                    
+                        <div class="bg-white p-4 ">
+                          <div class="flex  items-center inosia">
+                              <img src="/assets/svg/image5.svg" alt="">
+                              <h2 class="text-lg font-semibold mb-4">YouTube</h2>
+                          </div>
+                          <ul class="space-y-2 text-sm">
+                            <li>Подписчики</li>
+                            <li>Просмотры</li>
+                            <li>Просмотры трансляций</li>
+                            <li>Просмотры Shorts</li>
+                            <li>Лайки</li>
+                            <li>Дизлайки</li>
+                            <li>Комментарии</li>
+                            <li>Репосты</li>
+                            <li>Часы просмотров</li>
+                          </ul>
+                        </div>
+                    
+                        <div class="bg-white p-4 ">
+                          <div class="flex  items-center inosia ">
+                              <img src="/assets/svg/image7.svg" alt="">
+                              <h2 class="text-lg font-semibold mb-4">Twitch</h2>
+                          </div>
+                          <ul class="space-y-2 text-sm">
+                            <li>Подписчики</li>
+                            <li>Просмотры</li>
+                            <li>Зрители</li>
+                          </ul>
+                        </div>
+                    
+                        <div class="bg-white p-4 ">
+                          <div class="flex  items-center justify-center mb-3 inosia">
+                              <img src="/assets/svg/image6.svg" alt="">
+                              <h2 class="text-lg font-semibold mb-4">FaceBook</h2>
+                          </div>
+                          <ul class="space-y-2 text-sm">
+                            <li>Подписчики</li>
+                            <li>Лайки</li>
+                            <li>Просмотры</li>
+                            <li>Комментарии</li>
+                            <li>Истории</li>
+                            <li>Зрители</li>
+                            <li>Статистика</li>
+                          </ul>
+                        </div>
+                      </div>
+                  </div>
+                  
+            </div>
+        </section>
+        <section class="zakazs bg-[#0058FF]">
+            <div class="container">
+                <h1 class="h1">Быстрый заказ</h1>
+                <div class="iconlars swiper bg-white rounded-[10px] h-[60px] px-[13px] mt-10">
+                    <div class="swiper-wrapper">
+                        <div class="iconlar swiper-slide flex items-center gap-3">
+                            <img src="/assets/svg/image1.svg" alt="" class="icons">
+                            <h4 class="icons__title">Instagram</h4>
+                        </div>
+                        <div class="iconlar swiper-slide flex items-center gap-3">
+                            <img src="/assets/svg/image2.svg" alt="" class="icons">
+                            <h4 class="icons__title">VK</h4>
+                        </div>
+                        <div class="iconlar swiper-slide flex items-center gap-3">
+                            <img src="/assets/svg/image3.svg" alt="" class="icons">
+                            <h4 class="icons__title">TikTok</h4>
+                        </div>
+                        <div class="iconlar swiper-slide flex items-center gap-3">
+                            <img src="/assets/svg/image4.svg" alt="" class="icons">
+                            <h4 class="icons__title">Telegram</h4>
+                        </div>
+                        <div class="iconlar swiper-slide flex items-center gap-3">
+                            <img src="/assets/svg/image5.svg" alt="" class="icons">
+                            <h4 class="icons__title">YouTube</h4>
+                        </div>
+                        <div class="iconlar swiper-slide flex items-center gap-3">
+                            <img src="/assets/svg/image6.svg" alt="" class="icons">
+                            <h4 class="icons__title">Facebook</h4>
+                        </div>
+                        <div class="iconlar swiper-slide flex items-center gap-3">
+                            <img src="/assets/svg/image7.svg" alt="" class="icons">
+                            <h4 class="icons__title">Twitter</h4>
+                        </div>
+                        <div class="iconlar swiper-slide flex items-center gap-3">
+                            <img src="/assets/svg/image8.svg" alt="" class="icons">
+                            <h4 class="icons__title">Twitch</h4>
+                        </div>
+                        <div class="iconlar swiper-slide flex items-center gap-3">
+                            <img src="/assets/svg/image9.svg" alt="" class="icons">
+                            <h4 class="icons__title">RuTube</h4>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="zakazs__cards flex flex-wrap justify-center items-center gap-[20px] mt-[30px]">
+                    <div class="zakazs__card w-[220px] ">
+                        <h1 class="text-center">🙋‍♂️‍</h1>
+                        <h3 class="zakazs__card__title text-center">Подписчики</h3>
+                    </div>
+                    <div class="zakazs__card w-[220px] ">
+                        <h1 class="text-center">❤️</h1>
+                        <h3 class="zakazs__card__title text-center">Лайки</h3>
+                    </div>
+                    <div class="zakazs__card w-[220px] ">
+                        <h1 class="text-center">👀</h1>
+                        <h3 class="zakazs__card__title text-center">Просмотры</h3>
+                    </div>
+                    <div class="zakazs__card w-[220px] ">
+                        <h1 class="text-center">💬</h1>
+                        <h3 class="zakazs__card__title text-center">Комментарии</h3>
+                    </div>
+                    <div class="zakazs__card w-[220px] ">
+                        <h1 class="text-center">📷</h1>
+                        <h3 class="zakazs__card__title text-center">Просмотры</h3>
+                    </div>
+                    <div class="zakazs__card w-[220px] ">
+                        <h1 class="text-center">💁‍♀️</h1>
+                        <h3 class="zakazs__card__title text-center">Зрители в прямой <br>
+                            эфир</h3>
+                    </div>
+                    <div class="zakazs__card w-[220px] ">
+                        <h1 class="text-center">📈</h1>
+                        <h3 class="zakazs__card__title text-center">Статистика</h3>
+                    </div>
+                    <div class="zakazs__card w-[220px] ">
+                        <h1 class="text-center">🎬</h1>
+                        <h3 class="zakazs__card__title text-center">IGTV</h3>
+                    </div>
+                    <div class="zakazs__card w-[220px] ">
+                        <h1 class="text-center">💥</h1>
+                        <h3 class="zakazs__card__title text-center">Reels</h3>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="otzivlar mt-[60px]">
+            <div class="container">
+                <h1 class="h2 text-black">Отзывы клиентов</h1>
+
+
+                <div class="swipers mt-[40px]">
+                    <div class="swiper-wrapper">
+                        <div class="otzivlar__card swiper-slide">
+                            <div class="otzivlar__card__content flex gap-3">
+                                <img src="/assets/svg/odam.svg" alt="">
+                                <div>
+                                    <h5>Александр</h5>
+                                    <div class="flex">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <p>SMMFLOW помог мне <br> продвинуть канал на YouTube. <br> Заказывал подписчиков и <br>
+                                лайки, все прошло
+                                быстро и <br> качественно, всем <br> рекомендую!</p>
+                        </div>
+                        <div class="otzivlar__card swiper-slide">
+                            <div class="otzivlar__card__content flex gap-3">
+                                <img src="/assets/svg/odam.svg" alt="">
+                                <div>
+                                    <h5>Александр</h5>
+                                    <div class="flex">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <p>SMMFLOW помог мне <br> продвинуть канал на YouTube. <br> Заказывал подписчиков и <br>
+                                лайки, все прошло
+                                быстро и <br> качественно, всем <br> рекомендую!</p>
+                        </div>
+                        <div class="otzivlar__card swiper-slide">
+                            <div class="otzivlar__card__content flex gap-3">
+                                <img src="/assets/svg/odam.svg" alt="">
+                                <div>
+                                    <h5>Александр</h5>
+                                    <div class="flex">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <p>SMMFLOW помог мне <br> продвинуть канал на YouTube. <br> Заказывал подписчиков и <br>
+                                лайки, все прошло
+                                быстро и <br> качественно, всем <br> рекомендую!</p>
+                        </div>
+                        <div class="otzivlar__card swiper-slide">
+                            <div class="otzivlar__card__content flex gap-3">
+                                <img src="/assets/svg/odam.svg" alt="">
+                                <div>
+                                    <h5>Александр</h5>
+                                    <div class="flex">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <p>SMMFLOW помог мне <br> продвинуть канал на YouTube. <br> Заказывал подписчиков и <br>
+                                лайки, все прошло
+                                быстро и <br> качественно, всем <br> рекомендую!</p>
+                        </div>
+                        <div class="otzivlar__card swiper-slide">
+                            <div class="otzivlar__card__content flex gap-3">
+                                <img src="/assets/svg/odam.svg" alt="">
+                                <div>
+                                    <h5>Александр</h5>
+                                    <div class="flex">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <p>SMMFLOW помог мне <br> продвинуть канал на YouTube. <br> Заказывал подписчиков и <br>
+                                лайки, все прошло
+                                быстро и <br> качественно, всем <br> рекомендую!</p>
+                        </div>
+                        <div class="otzivlar__card swiper-slide">
+                            <div class="otzivlar__card__content flex gap-3">
+                                <img src="/assets/svg/odam.svg" alt="">
+                                <div>
+                                    <h5>Александр</h5>
+                                    <div class="flex">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <p>SMMFLOW помог мне <br> продвинуть канал на YouTube. <br> Заказывал подписчиков и <br>
+                                лайки, все прошло
+                                быстро и <br> качественно, всем <br> рекомендую!</p>
+                        </div>
+                        <div class="otzivlar__card swiper-slide">
+                            <div class="otzivlar__card__content flex gap-3">
+                                <img src="/assets/svg/odam.svg" alt="">
+                                <div>
+                                    <h5>Александр</h5>
+                                    <div class="flex">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <p>SMMFLOW помог мне <br> продвинуть канал на YouTube. <br> Заказывал подписчиков и <br>
+                                лайки, все прошло
+                                быстро и <br> качественно, всем <br> рекомендую!</p>
+                        </div>
+                        <div class="otzivlar__card swiper-slide">
+                            <div class="otzivlar__card__content flex gap-3">
+                                <img src="/assets/svg/odam.svg" alt="">
+                                <div>
+                                    <h5>Александр</h5>
+                                    <div class="flex">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <p>SMMFLOW помог мне <br> продвинуть канал на YouTube. <br> Заказывал подписчиков и <br>
+                                лайки, все прошло
+                                быстро и <br> качественно, всем <br> рекомендую!</p>
+                        </div>
+                        <div class="otzivlar__card swiper-slide">
+                            <div class="otzivlar__card__content flex gap-3">
+                                <img src="/assets/svg/odam.svg" alt="">
+                                <div>
+                                    <h5>Александр</h5>
+                                    <div class="flex">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                        <img src="/assets/svg/Frame.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <p>SMMFLOW помог мне <br> продвинуть канал на YouTube. <br> Заказывал подписчиков и <br>
+                                лайки, все прошло
+                                быстро и <br> качественно, всем <br> рекомендую!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="showcases">
+            <div class="container">
+                <div class="showcase__left__right flex justify-between">
+                    <div class="showcases__left">
+                        <h1 class="skis">Скидки до 50% <br>
+                            в нашем телеграм-канале</h1>
+                        <p class="raz">Раздаем промокоды в Telegram каждую неделю
+                        </p>
+                        <button class="showcase__buttons">Получить промокод</button>
+                    </div>
+                    <div class="showcase__right">
+                        <img class="ilustrations" src="/assets/img/Saly-2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="savollar mt-[30px]">
+            <div class="container">
+                <h1 class="h2 text-black">Частые вопросы</h1>
+                <div class="savollar__left__right__cards flex gap-8 mt-[30px] items-center justify-center">
+                    <div class="savollar__left__cards">
+                        <div class="savollar__left__card flex gap-6">
+                            <h4 class="savollar__title">Почему цены на ваши услуги ниже, чем у конкурентов?</h4>
+                            <img src="/assets/svg/Vector 1.svg" alt="">
+                        </div>
+                        <div class="savollar__left__card flex gap-6">
+                            <h4 class="savollar__title">Как вы гарантируете качество услуг?</h4>
+                            <img src="/assets/svg/Vector 1.svg" alt="">
+                        </div>
+                        <div class="savollar__left__card flex gap-6">
+                            <h4 class="savollar__title">Как я могу узнать о статусе моего заказа?</h4>
+                            <img src="/assets/svg/Vector 1.svg" alt="">
+                        </div>
+                        <div class="savollar__left__card flex gap-6">
+                            <h4 class="savollar__title">Как быстро выполняется заказ?</h4>
+                            <img src="/assets/svg/Vector 1.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="savollar__right__cards">
+                        <div class="savollar__left__card flex gap-6">
+                            <h4 class="savollar__title">Какие способы оплаты вы принимаете?</h4>
+                            <img src="/assets/svg/Vector 1.svg" alt="">
+                        </div>
+                        <div class="savollar__left__card flex gap-6">
+                            <h4 class="savollar__title">Меня не заблокируют?</h4>
+                            <img src="/assets/svg/Vector 1.svg" alt="">
+                        </div>
+                        <div class="savollar__left__card flex gap-6">
+                            <h4 class="savollar__title">Как я могу связаться с вами?</h4>
+                            <img src="/assets/svg/Vector 1.svg" alt="">
+                        </div>
+                        <div class="savollar__left__card flex gap-6">
+                            <h4 class="savollar__title">Что произойдет, если мои подписчики или лайки уйдут?</h4>
+                            <img src="/assets/svg/Vector 1.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer__left__right flex gap-[60px]">
+                <div class="footer__left">
+                    <div class="footer__left__contents">
+                        <img src="/assets/svg/logo1.svg" alt="">
+                        <h4 class="footer__left__contents__title">
+                            SMMFLOW - сервис, где вы сможете приобрести <br>
+                            качественное продвижение в социальных сетях <br> по
+                            выгодным ценам.
+                        </h4>
+                    </div>
+                    <div class="footer__icons flex gap-4">
+                        <img src="/assets/svg/sim.svg" alt="">
+                        <img src="/assets/svg/Visa_Inc._logo 1.svg" alt="">
+                        <img src="/assets/svg/Group.svg" alt="">
+                        <img src="/assets/svg/Vector.svg" alt="">
+                    </div>
+                </div>
+                <div class="footer__right flex  gap-[60px]">
+                    <div>
+                        <a href="#">
+                            <h3>Каталог услуг</h3>
+                        </a><a href="#">
+                            <h3>Преимущества</h3>
+                        </a><a href="#">
+                            <h3>Отзывы</h3>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <h3>Политика конфиденциальности</h3>
+                        </a><a href="#">
+                            <h3>Публичная оферта</h3>
+                        </a><a href="#">
+                            <h3>Пользовательское соглашение</h3>
+                        </a>
+                        <a href="#">
+                            <h3>Правила сервиса</h3>
+                        </a>
+                        <a href="#">
+                            <h3>Контакты</h3>
+                        </a>
+                    </div>
+                    <div class="cantents">
+                        <h3>
+                            Нужна помощь?
+                        </h3>
+                        <a href="#"><button class="footer__buttons w-[144px]">Онлайн-чат</button></a>
+                        <div>
+
+                            <a href="mailto:support@smmflow.net">support@smmflow.net</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
